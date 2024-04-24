@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Inter;
+  src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+:root {
+  /* ### Primary */
+
+  --Green: hsl(75, 94%, 57%);
+
+  /* ### Neutral */
+
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark-Grey: hsl(0, 0%, 12%);
+  --Off-Black: hsl(0, 0%, 8%);
+}
+
+body {
+  font-size: 16px;
+  font-family: Inter;
+  background-color: var(--Off-Black);
+  color: var(--White);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+p {
+  font-size: 14px;
+}
+
+.linkProfile {
+  width: 270px;
+  background-color: var(--Dark-Grey);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+#profileImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+.profileText {
+  font-size: 14px;
+  margin-top: 10px;
+  color: var(--Green);
+}
+
+.developerText {
+  font-size: 14px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+ul li {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+  background-color: var(--Grey);
+  border-radius: 5px;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li:hover {
+  background-color: var(--Green);
+  color: var(--Off-Black);
+  font-weight: 600;
+  transition: 300ms ease-in;
+}
+
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
